@@ -1,0 +1,3 @@
+# Exclude specific match analysis records, keep template
+memory/records/*
+!memory/records/_TEMPLATE.md
