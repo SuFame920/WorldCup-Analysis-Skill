@@ -87,10 +87,12 @@ Feed expected-minutes back to Channels B and C.
 
 ## Channel G — Market / odds (盘口)
 **Goal:** the strongest baseline and the source of the actual lines to predict against.
-**Pull (live):** 1X2 odds → implied probabilities; the **Asian handicap line** (the exact
-让球 value — 0.5 / 1 / 1.25 …) and its prices; the **goals line** (大小球 — 2.5 / 2.75 …) and
-prices; note any line movement if visible (movement encodes information).
-**Emit:** market-implied 1X2, the handicap line + favored side, the totals line, and any
+**Pull (live):** 1X2 odds → implied probabilities; **the 让球 line — prefer the China Sports
+Lottery (中国体彩/竞彩) INTEGER handicap** (让 1 / 受让 1 …, on which you predict the
+handicapped 胜/平/负), and only fall back to an Asian quarter/half line (0.5 / 1.25) if no 体彩
+line exists — and even then **state the prediction in 体彩 integer terms, not as -0.25**; the
+**goals line** (大小球 — 2.5 / 2.75 …) and prices; note any line movement if visible.
+**Emit:** market-implied 1X2, the (integer) handicap line + favored side, the totals line, and any
 movement.
 **Use:** anchor the prior, sanity-check the posterior, and supply the lines the output must
 predict on. Beating the market is hard — divergence must be earned and flagged.
