@@ -44,6 +44,11 @@ Adjust the prior **only through stated mechanisms**, and keep each adjustment bo
   If it's strong, the distribution should be flatter (more draw / more alternative scorelines).
   This is the explicit antidote to narrative bias. **这一步的产物在重排阶段汇成「爆冷概率」(见 3.5),
   而不是写成输出端的犹豫措辞。**
+- **反矫枉过正自检(anti-overcorrection,2026-06-22 批次教训).** 载入 `calibration-summary.md`
+  的 standing corrections(Channel H)作为弱先验时,每应用一条先问:**"我是不是在把上一批次的教训矫枉
+  过正?"** 修正是**带方向+小幅度+帽子的弱先验,不是反向铁律**:上次押小错了**不等于**这次无条件押大
+  (本批 Arg-Aut 正因把"杀 under-bias"用成"一律押大"而错)。优先用**条件式修正**(如 totals 按场景
+  分型)而非无条件标量;一条修正与本场具体机制冲突时,信本场机制,别硬套历史修正。
 
 ---
 
@@ -84,13 +89,17 @@ confidence × (not priced_in)`. **Caps (respect World Cup variance):**
   让 1 / 受让 1)。把整数让球套到比分矩阵(给受让方加上让球数),再汇总**让球后的胜/平/负**(主队
   视角)。预测让球后最可能的那一面。**用体彩口径说"让 N 球后胜/平/负",不要用 -0.25/-0.5/1.25 这类
   亚洲盘四分之一/半球术语。** 若线查不到,定性预测("若主让一球,倾向…")并注明线未确认。Report **≤2**。
+  - **整数盘"走盘(push)"必须显式处理(2026-06-22 批次教训).** 体彩是整数盘:favorite 让 1 而**净胜恰好 1 球**=**走盘退款**,既非赢盘也非输盘。所以**别把"favorite 赢不下让球盘"自动等价于"受让方净赢"**——"净胜 1"落在 push 这一格。读矩阵时把 push 概率单列出来,受让方真实赢盘 value 只算 favorite 净胜 0(平/负)的质量,不含 push。本批次 Nor 3-2、Alg 2-1 两场 favorite 均净胜 1=push,验证此坑。
 - **比分 (correct score):** take the top cells of the matrix **that agree with your 1X2 pick**.
   押主胜→只取主胜比分;押双选(胜+平)→只取主胜或平局比分,**禁止取客胜比分**。**置信度→个数:**
   头部明显领先→给 1–2 个;多个挤在一起→给 **3**(上限)。按概率从高到低排列,高的在前。
 - **进球数 / 大小球 (total goals O/U):** **look the line up first** (2.5 / 2.75 …) 用于核对方向,
   但**预测写成具体进球总数**(如"2 球 / 3 球"),不要写"大球/3+"这种开口区间。Sum the matrix by
   total goals, take the **≤2** most likely totals. **这些进球数必须与你列的比分总和一致**(2-1=3 球)。
-  Both teams' xG and game-state (must-win → open; dead rubber → cagey) drive this.
+  - **场景分型决定 totals 方向(2026-06-22 批次教训 —— 别用无条件标量).** 不要笼统"押大/押小",按局势分型,且**真正让分型驱动数字**(本批次两次错都是分型用反):
+    - **开放对攻局**(双方都必须赢 / 出线缠斗 / 互有得分点)→ **偏大,贴市场上沿**。例:Nor-Sen 5 球、Alg-Jor 3 球(我赛前已写"生死必开放"却仍押小=分型没落地)。
+    - **精英 favorite 控场绞杀被动弱旅**(对手摆大巴+运动战钝+无追分动机/能力)→ **可低分,贴市场下沿甚至偏下**。例:Arg-Aut 2-0(我误把"杀 under-bias"当成"一律押大"→押大错)。
+    - **判别键**:对手有无**追分动机 + 追分能力**;favorite 是**对攻**还是**控场绞杀**。先判分型,再读矩阵取进球数。
 - **半全场 (HT/FT):** the bet is the **[半场结果][全场结果] pairing**, each ∈ {胜, 平, 负},
   **from the home team's perspective** (the team listed first). That gives **9 outcomes**:
   胜胜 / 胜平 / 胜负 / 平胜 / 平平 / 平负 / 负胜 / 负平 / 负负. The lead-change cases — **负胜**
@@ -101,6 +110,7 @@ confidence × (not priced_in)`. **Caps (respect World Cup variance):**
   the **highest-variance** market → usually give **1** pick, **≤2** only when both halves point
   the same way with conviction. **全场段必须与 1X2 一致**(押主胜→全场段=胜)。Be candid that this
   is the least reliable line.
+  - **别反射性默认"半场平"(2026-06-22 批次教训).** 当一方有**早段破僵能力**时,**上调其半场领先概率**,半全场别默认押"平/X":① 精英早段终结点(哈兰德/姆巴佩级,本批 Nor 上半场即领先);② 对手快反/定位球能先偷一城(本批 Alg-Jor 约旦上半场 0-1 领先)。本批次 Nor、Alg 两场半全场都错在 HT-平默认。仅当**双方都谨慎、缺早段得分点**时才回到"半场平"先验。
 
 ### 3.5 爆冷概率(upset probability)— 必给的独立产出(用户定制 ②)
 

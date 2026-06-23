@@ -108,7 +108,11 @@ Run the funnel in this order; each stage has a reference file.
    where the prior gets adjusted. **Before locking picks, run a portfolio-level bias self-check:**
    if you are making the *same directional* totals/handicap lean across several correlated
    matches (e.g. all "under + underdog"), stop and reconcile toward the market — it is likely one
-   narrative copied, not independent evidence. → `references/reasoning-and-synthesis.md`.
+   narrative copied, not independent evidence. **Also run an anti-overcorrection check:** before
+   applying each standing correction, ask whether you're over-reversing last batch's lesson — the
+   corrections are capped weak priors with a direction, not inverse hard rules (e.g. "kill
+   under-bias" ≠ "always over"; prefer the conditional, scenario-typed form). →
+   `references/reasoning-and-synthesis.md`.
 6. **重排 Synthesize.** Build the quantitative prior (rating/odds-implied + a
    bivariate-Poisson score matrix), apply the bounded adjustments, run the
    **anti-overconfidence** and **market sanity-check** guardrails, then derive *every*
