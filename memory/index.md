@@ -16,6 +16,10 @@ Status: `pending` = predicted, result not yet recorded · `settled` = result + r
 | 2026-06-22 | argentina / austria | WC2026 GJ (MD2) | settled | Argentina 70% | 2–0 (HT 1–0) | 1X2✓ 让球✓ 比分✓ 半全✓ / 大小✗ | 校正#2奏效(比分2-0主桶中);但"杀under-bias"过头→精英绞杀被动弱旅其实是低分场 | records/2026-06-22_argentina_vs_austria.md |
 | 2026-06-22 | france / iraq | WC2026 GI (MD2) | settled | France 88% | 3–0 (HT 1–0) | 1X2✓ 让球✓ 比分✓ 大小✓ 半全✓ (5/5) | 强弱悬殊场校正#2连中(3-0主桶+吃让2盘);此类场继续信任 | records/2026-06-22_france_vs_iraq.md |
 | 2026-06-22 | algeria / jordan | WC2026 GJ (MD2) | settled | Algeria 57% | 2–1 (HT 0–1) | 1X2✓ 比分✓(次桶) / 让球push 大小✗ 半全✗ | 已识别"生死开放局"却押了小球→场景分型没驱动totals;半场别默认平 | records/2026-06-22_algeria_vs_jordan.md |
+| 2026-06-23 | portugal / uzbekistan | WC2026 GK (MD2) | settled | Portugal 76% | 5–0 (HT 3–0) | 1X2✓ 让球✓ / 比分✗ 大小✗ 半全✗ | 精英全主力+终结者+动机的强队对真弱旅:比分/totals上限给够(4-0/5-0)、半场别默认平 | records/2026-06-23_portugal_vs_uzbekistan.md |
+| 2026-06-23 | england / ghana | WC2026 GL (MD2) | settled | England 76% | 0–0 | 爆冷命中(22%) / 1X2✗ 让球✗ 比分✗ 大小✗ 半全✗ | 自评爆冷≥20%且有具体闷杀机制时,1X2/比分/totals必须对冲(留平/留小),别只写备注 | records/2026-06-23_england_vs_ghana.md |
+| 2026-06-23 | panama / croatia | WC2026 GL (MD2) | settled | Croatia 62% | 0–1 (HT 0–0) | 1X2✓ 比分✓(1-0次桶) 大小✓(小) 半全✓(平负) / 让球push | 数据+弱攻对手+押小=最佳工况;净胜1走盘预警精准;但"我方控场"剧本写反(巴控球更多) | records/2026-06-23_panama_vs_croatia.md |
+| 2026-06-23 | colombia / dr_congo | WC2026 GK (MD2) | settled | Colombia 60% | 1–0 (HT 0–0) | **5/5 满堂红**(1X2✓ 让球✓-push押对 比分✓1-0 大小✓小 半全✓平胜) | 绞杀铁桶archetype按设计奏效;与Por 5-0同型两极=对手防线质量+终结者决定走向 | records/2026-06-23_colombia_vs_dr_congo.md |
 |            |                      |                 |         |                |                 |                                                    |                                                         |                                             |
 
 > **跨场总结(MD2, 2026-06-21,4 场):** 见 [calibration-summary.md](calibration-summary.md)。
@@ -23,6 +27,9 @@ Status: `pending` = predicted, result not yet recorded · `settled` = result + r
 
 > **跨场总结(MD2, 2026-06-22,4 场):** 见 [calibration-summary.md](calibration-summary.md) Batch 2。
 > **大幅好转:1X2 4/4、比分 3/4(上批次 0/4!)、让球 2/4+2push、大小 2/4、半全 2/4。** 校正 #2(不封顶favorite净胜球)**验证有效**(Arg 2-0、Fr 3-0、Alg 2-1 比分主/次桶连中)。残留偏差**已非单向**:① 大小球错向是**场景分型用反**(开放局押了小、绞杀局押了大),不是系统 under-bias;② **新发现"半场平"默认偏差**(Nor/Alg 两场 favorite/对手上半场即领先,半全场 miss)。
+
+> **跨场总结(MD2, 2026-06-23,4 场已结算):** 见 [calibration-summary.md](calibration-summary.md) Batch 3。
+> 1X2 **3/4**(England 0-0 爆冷)、让球 Por赢盘✓+Col押push✓/Cro push/Eng✗、大小 **2/4**、比分 **2/4**、半全 **2/4**。**最佳卡=哥伦比亚 5/5(让球直接押 push 命中)+ 克罗地亚 4/5+push。** 两大 miss(Por 5-0、Eng 0-0)主因 **finishing variance vs xG**。两条真·流程缺陷:**① England 机理对却全压热门(没对冲);② Portugal #2 封顶太低 + archetype 误套。** **Por vs Col 同型两极**(见 v3 #10):有数据+真铁桶弱攻对手时近乎满堂红,模型工况最佳。
 
 <!--
 Append rows like:
