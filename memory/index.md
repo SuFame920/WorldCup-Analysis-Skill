@@ -26,6 +26,12 @@ Status: `pending` = predicted, result not yet recorded · `settled` = result + r
 | 2026-06-24 | morocco / haiti | WC2026 GC (MD3) | settled | Morocco 82% | 4–2 (HT 2–2) | 1X2✅ 让球✅(次桶/push) 半全✅(主桶) / 比分❌ 大小❌ | "已淘汰=无威胁"是危险假设;Haiti无压力爆发双球+世界波→totals仅靠"弱攻"推Under脆弱 | records/2026-06-24_morocco_vs_haiti.md |
 | 2026-06-24 | switzerland / canada | WC2026 GB (MD3) | settled | 瑞士不败(双选) | 2–1 (HT 0–0) | **1X2✅ 让球✅(次桶/push) 比分✅(2-1!) 大小✅(次桶/3球) 半全✅(平胜主桶)** | BTTS+让平+平胜=均势双出线局"甜点模态";Manzambi精英级变速器;比分量身定做;大小球3球次选命中→5/5满堂红 | records/2026-06-24_switzerland_vs_canada.md |
 | 2026-06-24 | south_africa / south_korea | WC2026 GA (MD3) | settled | South Korea 65% | 0–1 (HT 0–0) | 大小✅(1球主桶) / 1X2❌ 让球❌ 比分❌ 半全❌ | "非洲魔咒"不是次要脚注(韩对非洲5场全丢球);核心球员停赛信息误判→方向全错;Under直觉对但方向反 | records/2026-06-24_south_africa_vs_south_korea.md |
+| 2026-06-25 | japan / sweden | WC2026 GF (MD3) | pending | 日本胜 52% / 平局 25% | — | — | 非对称战意局(瑞典必须赢/日本打平出线);爆冷~25%→强制双选对冲;场景③开放对攻→Over偏大;久保缺阵→净胜1让平;Isak+Gyökeres个体降维=爆冷主引信 | records/2026-06-25_japan_vs_sweden.md |
+| 2026-06-25 | tunisia / netherlands | WC2026 GF (MD3) | pending | 荷兰胜 88% | — | — | 强弱极端悬殊(400-Elo差+突出局+攻防双真空);爆冷~5%→无需对冲;净胜球战意→3-0/4-0;突进攻0威胁→荷兰零封高概率;⚠让球线可能已升-3需核验 | records/2026-06-25_tunisia_vs_netherlands.md |
+| 2026-06-25 | australia / paraguay | WC2026 GD (MD3) | pending | 平局 50% / 巴拉圭胜 32% | — | — | 非对称战意局(澳打平出线/巴必须赢);阿尔米隆停赛→巴进攻瘫痪;双方低位→1球/2球极窄区间;盘口平手→走盘概率极高;平平+平胜覆盖 | records/2026-06-25_paraguay_vs_australia.md |
+| 2026-06-25 | curacao / cote_divoire | WC2026 GE (MD3) | pending | 科特迪瓦胜 78% / 平局 42% | — | — | 实力断层(200分Elo差)但科特迪瓦终结非精英级(两场仅2球);鲁姆15扑救门神效应→爆冷≥22%触发双选;让2球让胜/让平被低估;MD3溢价totals 2-3球 | records/2026-06-25_curacao_vs_cote_divoire.md |
+| 2026-06-25 | ecuador / germany | WC2026 GE (MD3) | pending | 德国胜 50% / 平局 28% | — | — | 动机不对称局(厄必须赢/德已出线);纳格尔斯曼仅2处轮换→非走过场;爆冷~22-25%→强制1X2双选;厄0进球+防线精英→低分闷局;让胜(厄+1)最可能单格 | records/2026-06-25_ecuador_vs_germany.md |
+| 2026-06-25 | turkey / usa | WC2026 GD (MD3) | pending | 土耳其不败(平38/土胜35) | — | — | 被动轮换vs全主力死战;美国4核心缺阵+替补门将→防守降级;土耳其xG回归均值(62射0球不可持续);爆冷~40-45%→强制双选;平平+平胜覆盖;竞彩认知差值-28% | records/2026-06-25_turkey_vs_usa.md |
 |            |                      |                 |         |                |                 |                                                    |                                                         |                                             |
 
 > **跨场总结(MD2, 2026-06-21,4 场):** 见 [calibration-summary.md](calibration-summary.md)。
