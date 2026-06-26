@@ -32,6 +32,7 @@ Status: `pending` = predicted, result not yet recorded · `settled` = result + r
 | 2026-06-25 | curacao / cote_divoire | WC2026 GE (MD3) | settled | 科特迪瓦胜 78% / 平局 42% | 0–2 (HT 0–1) | ⭐ **4/5 (仅半全✗)!** 1X2✅ 让球✅(次/push) **比分✅(主/0-2精确!)** 大小✅(主/2球) 半全✗ | 本批最佳卡:实力断层+非精英终结者的典型模态;0-2比分精确命中;让球push(净胜2=走盘)连续验证;Pépé早进球→半全错 | records/2026-06-25_curacao_vs_cote_divoire.md |
 | 2026-06-25 | ecuador / germany | WC2026 GE (MD3) | settled | 德国胜 50% / 平局 28% | **2–1 (HT 1-1)** | 让球✅(主/让胜Ecu+1) / 1X2✗ 比分✗ 大小✗ 半全✗ | **本批最差卡**:厄瓜多尔首度进球=\*双球\*+德国早进后强度下降;"必须赢vs已出线"→MD3解放效应反转强度向量;早期进球打开比赛→totals Under全错 | records/2026-06-25_ecuador_vs_germany.md |
 | 2026-06-25 | turkey / usa | WC2026 GD (MD3) | settled | 土耳其不败(平38/土胜35) | 2–2 (HT 2-1) | 1X2✅ 让球✅(Turkey+1不败) / 比分✗ 大小✗ 半全✗ | 土耳其不败方向正确;xG回归验证(62射终进球!);"无利害表演赛"MD3亚型→totals飙至4球远超预期;双方3'和10'早进球→结构性打开 | records/2026-06-25_turkey_vs_usa.md |
+| 2026-06-27 | norway / france | WC2026 GI (MD3) | pending | 法国胜 65% / 平局 22% | — | — | 争小组第一龙虎斗;法国打平即第一vs挪威必须赢;德尚缺席+萨利巴缺阵+法国轮换5-6人→爆冷25-30%触发强制双选;哈兰德4场4球+姆巴佩追纪录→双方都进球大概率;让平主选(push铁律)| records/2026-06-27_norway_vs_france.md |
 |            |                      |                 |         |                |                 |                                                    |                                                         |                                             |
 
 > **跨场总结(MD2, 2026-06-21,4 场):** 见 [calibration-summary.md](calibration-summary.md)。
