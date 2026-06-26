@@ -33,6 +33,7 @@ Status: `pending` = predicted, result not yet recorded · `settled` = result + r
 | 2026-06-25 | ecuador / germany | WC2026 GE (MD3) | settled | 德国胜 50% / 平局 28% | **2–1 (HT 1-1)** | 让球✅(主/让胜Ecu+1) / 1X2✗ 比分✗ 大小✗ 半全✗ | **本批最差卡**:厄瓜多尔首度进球=\*双球\*+德国早进后强度下降;"必须赢vs已出线"→MD3解放效应反转强度向量;早期进球打开比赛→totals Under全错 | records/2026-06-25_ecuador_vs_germany.md |
 | 2026-06-25 | turkey / usa | WC2026 GD (MD3) | settled | 土耳其不败(平38/土胜35) | 2–2 (HT 2-1) | 1X2✅ 让球✅(Turkey+1不败) / 比分✗ 大小✗ 半全✗ | 土耳其不败方向正确;xG回归验证(62射终进球!);"无利害表演赛"MD3亚型→totals飙至4球远超预期;双方3'和10'早进球→结构性打开 | records/2026-06-25_turkey_vs_usa.md |
 | 2026-06-27 | norway / france | WC2026 GI (MD3) | pending | 法国胜 65% / 平局 22% | — | — | 争小组第一龙虎斗;法国打平即第一vs挪威必须赢;德尚缺席+萨利巴缺阵+法国轮换5-6人→爆冷25-30%触发强制双选;哈兰德4场4球+姆巴佩追纪录→双方都进球大概率;让平主选(push铁律)| records/2026-06-27_norway_vs_france.md |
+| 2026-06-27 | senegal / iraq | WC2026 GI (MD3) | pending | 塞内加尔胜 58% / 平局 25% | — | — | **生死战!** 赢2球=3分GD-1直接压韩国进32强;实力断层(Sarr+Jackson+Mané)但更衣室涣散(奖金拖欠/教练无合同)触发强制双选;伊拉克侯赛因缺阵→进攻真空;让胜44/让平36;2-0/2-1/3-1;2球/3球;胜胜/平胜;爆冷22% | records/2026-06-27_senegal_vs_iraq.md |
 |            |                      |                 |         |                |                 |                                                    |                                                         |                                             |
 
 > **跨场总结(MD2, 2026-06-21,4 场):** 见 [calibration-summary.md](calibration-summary.md)。
