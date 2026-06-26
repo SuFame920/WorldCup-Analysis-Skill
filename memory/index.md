@@ -26,25 +26,28 @@ Status: `pending` = predicted, result not yet recorded · `settled` = result + r
 | 2026-06-24 | morocco / haiti | WC2026 GC (MD3) | settled | Morocco 82% | 4–2 (HT 2–2) | 1X2✅ 让球✅(次桶/push) 半全✅(主桶) / 比分❌ 大小❌ | "已淘汰=无威胁"是危险假设;Haiti无压力爆发双球+世界波→totals仅靠"弱攻"推Under脆弱 | records/2026-06-24_morocco_vs_haiti.md |
 | 2026-06-24 | switzerland / canada | WC2026 GB (MD3) | settled | 瑞士不败(双选) | 2–1 (HT 0–0) | **1X2✅ 让球✅(次桶/push) 比分✅(2-1!) 大小✅(次桶/3球) 半全✅(平胜主桶)** | BTTS+让平+平胜=均势双出线局"甜点模态";Manzambi精英级变速器;比分量身定做;大小球3球次选命中→5/5满堂红 | records/2026-06-24_switzerland_vs_canada.md |
 | 2026-06-24 | south_africa / south_korea | WC2026 GA (MD3) | settled | South Korea 65% | 0–1 (HT 0–0) | 大小✅(1球主桶) / 1X2❌ 让球❌ 比分❌ 半全❌ | "非洲魔咒"不是次要脚注(韩对非洲5场全丢球);核心球员停赛信息误判→方向全错;Under直觉对但方向反 | records/2026-06-24_south_africa_vs_south_korea.md |
-| 2026-06-25 | japan / sweden | WC2026 GF (MD3) | pending | 日本胜 52% / 平局 25% | — | — | 非对称战意局(瑞典必须赢/日本打平出线);爆冷~25%→强制双选对冲;场景③开放对攻→Over偏大;久保缺阵→净胜1让平;Isak+Gyökeres个体降维=爆冷主引信 | records/2026-06-25_japan_vs_sweden.md |
-| 2026-06-25 | tunisia / netherlands | WC2026 GF (MD3) | pending | 荷兰胜 88% | — | — | 强弱极端悬殊(400-Elo差+突出局+攻防双真空);爆冷~5%→无需对冲;净胜球战意→3-0/4-0;突进攻0威胁→荷兰零封高概率;⚠让球线可能已升-3需核验 | records/2026-06-25_tunisia_vs_netherlands.md |
-| 2026-06-25 | australia / paraguay | WC2026 GD (MD3) | pending | 平局 50% / 巴拉圭胜 32% | — | — | 非对称战意局(澳打平出线/巴必须赢);阿尔米隆停赛→巴进攻瘫痪;双方低位→1球/2球极窄区间;盘口平手→走盘概率极高;平平+平胜覆盖 | records/2026-06-25_paraguay_vs_australia.md |
-| 2026-06-25 | curacao / cote_divoire | WC2026 GE (MD3) | pending | 科特迪瓦胜 78% / 平局 42% | — | — | 实力断层(200分Elo差)但科特迪瓦终结非精英级(两场仅2球);鲁姆15扑救门神效应→爆冷≥22%触发双选;让2球让胜/让平被低估;MD3溢价totals 2-3球 | records/2026-06-25_curacao_vs_cote_divoire.md |
-| 2026-06-25 | ecuador / germany | WC2026 GE (MD3) | pending | 德国胜 50% / 平局 28% | — | — | 动机不对称局(厄必须赢/德已出线);纳格尔斯曼仅2处轮换→非走过场;爆冷~22-25%→强制1X2双选;厄0进球+防线精英→低分闷局;让胜(厄+1)最可能单格 | records/2026-06-25_ecuador_vs_germany.md |
-| 2026-06-25 | turkey / usa | WC2026 GD (MD3) | pending | 土耳其不败(平38/土胜35) | — | — | 被动轮换vs全主力死战;美国4核心缺阵+替补门将→防守降级;土耳其xG回归均值(62射0球不可持续);爆冷~40-45%→强制双选;平平+平胜覆盖;竞彩认知差值-28% | records/2026-06-25_turkey_vs_usa.md |
+| 2026-06-25 | japan / sweden | WC2026 GF (MD3) | settled | 日本胜 52% / 平局 25% | 1–1 (HT 0–0) | ⭐ **4/5 仅半全✗——全次选命中！** 1X2✅(次/平) 让球✅(次/让负) 比分✅(次/1-1) 大小✅(次/2球) 半全✗ | **校准体系的高光时刻**:强制双选对冲规则拯救全部4个市场;无对冲=0/5惨剧。England 0-0 Ghana的教训已内化。 | records/2026-06-25_japan_vs_sweden.md |
+| 2026-06-25 | tunisia / netherlands | WC2026 GF (MD3) | settled | 荷兰胜 88% | 1–3 (HT 0-2) | ⭐ 1X2✅ 让球✅(次/push) 大小✅(次/4球) 半全✅ / 比分✗ | 强弱极端悬殊场按设计推进;让球push(净胜2=走盘)第3次命中;跨线totals覆盖策略奏效;零封假设被TUN第2球打破→"已淘汰≠无威胁"再次证实 | records/2026-06-25_tunisia_vs_netherlands.md |
+| 2026-06-25 | australia / paraguay | WC2026 GD (MD3) | settled | 平局 50% / 巴拉圭胜 32% | 0–0 (HT 0–0) | 1X2✅ 让球✅(走盘) 半全✅(平平) / 比分✗ 大小✗ | 平局识别精准;平手盘走盘命中;0-0未入比分桶→"双方无力破门"场景应含0球;Almirón缺阵→巴拉圭进攻归零 | records/2026-06-25_paraguay_vs_australia.md |
+| 2026-06-25 | curacao / cote_divoire | WC2026 GE (MD3) | settled | 科特迪瓦胜 78% / 平局 42% | 0–2 (HT 0–1) | ⭐ **4/5 (仅半全✗)!** 1X2✅ 让球✅(次/push) **比分✅(主/0-2精确!)** 大小✅(主/2球) 半全✗ | 本批最佳卡:实力断层+非精英终结者的典型模态;0-2比分精确命中;让球push(净胜2=走盘)连续验证;Pépé早进球→半全错 | records/2026-06-25_curacao_vs_cote_divoire.md |
+| 2026-06-25 | ecuador / germany | WC2026 GE (MD3) | settled | 德国胜 50% / 平局 28% | **2–1 (HT 1-1)** | 让球✅(主/让胜Ecu+1) / 1X2✗ 比分✗ 大小✗ 半全✗ | **本批最差卡**:厄瓜多尔首度进球=\*双球\*+德国早进后强度下降;"必须赢vs已出线"→MD3解放效应反转强度向量;早期进球打开比赛→totals Under全错 | records/2026-06-25_ecuador_vs_germany.md |
+| 2026-06-25 | turkey / usa | WC2026 GD (MD3) | settled | 土耳其不败(平38/土胜35) | 2–2 (HT 2-1) | 1X2✅ 让球✅(Turkey+1不败) / 比分✗ 大小✗ 半全✗ | 土耳其不败方向正确;xG回归验证(62射终进球!);"无利害表演赛"MD3亚型→totals飙至4球远超预期;双方3'和10'早进球→结构性打开 | records/2026-06-25_turkey_vs_usa.md |
 |            |                      |                 |         |                |                 |                                                    |                                                         |                                             |
 
 > **跨场总结(MD2, 2026-06-21,4 场):** 见 [calibration-summary.md](calibration-summary.md)。
-> 系统性偏差:**四场全部默认"小球 + 受让方/弱favorite净胜球",→ 大小球 1/4、比分 0/4、让球 2/4**。根因=把单一"强权打不穿摆大巴→低分"叙事套到每场 + 过度外推 MD1 全闷平的小样本。**待办:下次预测前必跑"组合级偏差自检"(见 reflection-protocol)。**
+> 系统性偏差:**四场全部默认"小球 + 受让方/弱favorite净胜球"→ 大小球 1/4、比分 0/4、让球 2/4**。根因=把单一"强权打不穿摆大巴→低分"叙事套到每场 + 过度外推 MD1 全闷平的小样本。
 
 > **跨场总结(MD2, 2026-06-22,4 场):** 见 [calibration-summary.md](calibration-summary.md) Batch 2。
-> **大幅好转:1X2 4/4、比分 3/4(上批次 0/4!)、让球 2/4+2push、大小 2/4、半全 2/4。** 校正 #2(不封顶favorite净胜球)**验证有效**(Arg 2-0、Fr 3-0、Alg 2-1 比分主/次桶连中)。残留偏差**已非单向**:① 大小球错向是**场景分型用反**(开放局押了小、绞杀局押了大),不是系统 under-bias;② **新发现"半场平"默认偏差**(Nor/Alg 两场 favorite/对手上半场即领先,半全场 miss)。
+> **大幅好转:1X2 4/4、比分 3/4(上批次 0/4!)、让球 2/4+2push、大小 2/4、半全 2/4。**
 
 > **跨场总结(MD2, 2026-06-23,4 场已结算):** 见 [calibration-summary.md](calibration-summary.md) Batch 3。
-> 1X2 **3/4**(England 0-0 爆冷)、让球 Por赢盘✓+Col押push✓/Cro push/Eng✗、大小 **2/4**、比分 **2/4**、半全 **2/4**。**最佳卡=哥伦比亚 5/5(让球直接押 push 命中)+ 克罗地亚 4/5+push。** 两大 miss(Por 5-0、Eng 0-0)主因 **finishing variance vs xG**。两条真·流程缺陷:**① England 机理对却全压热门(没对冲);② Portugal #2 封顶太低 + archetype 误套。** **Por vs Col 同型两极**(见 v3 #10):有数据+真铁桶弱攻对手时近乎满堂红,模型工况最佳。
 
 > **跨场总结(MD3, 2026-06-24,6 场已全部结算):** 见 [calibration-summary.md](calibration-summary.md) Batch 4。
-> **1X2 5/6**(仅South Korea 0-1爆冷错)、**让球 3胜+3 push**(push认知稳但Mex/Czech让球完全错向)、**大小 2/6**(SA-KOR 1球✅+Sui 3球次桶✅;赤字来自3场Under→Over误判+Mor 6球井喷)、**比分 3/6**(Sui 2-1精确!但Mor/Bra/Bos上限仍被低估)、**半全 5/6**(最佳项!平胜/胜胜/平负各命中)。**最佳卡=瑞士 5/5满堂红(让平push+比分 2-1+平胜+大小 3球次桶+1X2);最差卡=南非-韩国(信息失误→全错向)。** 三条核心教训:①"轮换=弱化"假设被推翻(板凳饥渴);②"已淘汰=无威胁"假设被推翻;③核心球员信息的准确性是硬地基(F渠道)。
+> **1X2 5/6**(仅South Korea 0-1爆冷错)、**让球 3胜+3 push**、**大小 2/6**、**比分 3/6**、**半全 5/6**(最佳项!)。**最佳卡=瑞士 5/5满堂红;最差卡=南非-韩国。**
+
+> **⭐ 跨场总结(MD3, 2026-06-25,6 场已全部结算):** 见 [calibration-summary.md](calibration-summary.md) Batch 5。
+> **1X2 5/6**(仅Ecuador 2-1 Germany错!)、**让球 6/6 全中**(含4个push!)、**大小 3/6**(CIV✅ NED✅ JPN✅ / ECU✗ PAR✗ TUR✗)、**比分 2/6**(CIV 0-2精确! JPN 1-1次桶! / 其余4场错)、**半全 3/6**(NED✅ PAR✅ / JPN✗ CIV✗ ECU✗ TUR✗)。**本批最佳卡=库拉索 0-2 科特迪瓦(4/5,比分精确命中!)+ 日本 1-1 瑞典(4/5,全次选对冲命中!)+ 突尼斯 1-3 荷兰(4/5)。最差卡=厄瓜多尔 2-1 德国(1/5,must-win vs already-qualified反转)。**
+> **⭐ 强制双选对冲规则在日-瑞之战大放异彩——无对冲即0/5惨剧。让球push认知跨7批13+场验证,已升为最强先验。三种MD3亚型被识别:解放效应(Haiti 2球, Ecuador 2球)、无利害表演赛(Turkey 2-2 USA, 4球)、绞杀死锁(Paraguay 0-0 Australia)。**
 
 <!--
 Append rows like:

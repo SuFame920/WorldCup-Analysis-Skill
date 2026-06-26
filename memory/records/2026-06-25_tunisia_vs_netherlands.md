@@ -93,7 +93,44 @@
 - B-7: "已淘汰=无威胁"废除 → assessed but Tunisia has NO real attackers → liberation effect does NOT apply (unlike Haiti with Isidor/Joseph)
 - B-8: MD3阶段溢价 ✅
 
-## Post-match (to fill after result)
-- Actual:
-- Scorecard (1X2 / 让球 / 比分 / 大小 / 半全):
-- Reflection:
+---
+
+## Post-match ✅
+
+### Actual Result
+**Tunisia 1-3 Netherlands (HT 0-2)**
+
+Goals:
+- OG Skhiri (TUN) 3' — own goal, NED 1-0
+- Brian Brobbey (NED) 7' — clinical finish, 2-0
+- Hazem Mastouri (TUN) 54' — Tunisia pulls one back, 1-2
+- Jan Paul van Hecke (NED) 62' — restores 3-1 margin
+
+Attendance: 68,391. Netherlands top Group F (7 pts), will face Morocco in R32.
+
+### Settlement
+| Market | Picks | Hit? | Notes |
+|--------|-------|:----:|-------|
+| 1X2 | 负(荷兰) | **✅** | Netherlands win as predicted |
+| 让球 (荷兰 -2) | 让胜/让平 | **✅ 次选** | NED wins by exactly 2 (3-1) = 让平(push!) |
+| 比分 | 3-0/4-0/2-0 | **✗** | All clean-sheet; Tunisia scored. Close to 3-0 — off by one Tunisia goal. |
+| 大小球 (3.25) | 3球/4球 | **✅ 次选** | Actual 4球 Over. Cross-line coverage strategy worked! |
+| 半全场 | 负负 | **✅** | HT 0-2, FT 1-3. NED led at HT and won FT. |
+
+**Scorecard: 4/5** — 1X2✅ 让球✅(次/push) 比分✗ 大小✅(次) 半全✅
+
+### Reflection (5-whys + channel attribution)
+
+1. **Why did the clean sheet assumption break?** Tunisia hadn't scored from open play in 2 games; their only prior goal was a set-piece. Mastouri's 54' strike earned Tunisia only their 2nd goal of the tournament. But this was already at 0-2 — the game was effectively over. The MD3 "eliminated team liberation effect" manifested for Tunisia (they scored a goal) without changing the outcome.
+
+2. **Why 让平 (push) again?** Netherlands won by exactly 2 goals — consistent with the "强队舒适赢但不过盘" pattern. Even a dominant team often lands on net +2 when facing an eliminated-but-proud opponent. The let平 as secondary pick was correct calibration.
+
+3. **Why did the cross-line totals strategy work?** Predicting both 3球(Under 3.25) and 4球(Over 3.25) correctly covered the line. Actual = 4球, hitting the secondary. The high-variance market discipline (给两个跨线选项) was validated.
+
+4. **What was correctly anticipated?** The early NED lead (3' and 7') matched the pre-match expectation ("NED showed early scoring in both prior matches"). The 3-1 score was close to the predicted 3-0 — only off by one Tunisia goal. The push认知 was again validated.
+
+5. **Transfer:** Even against teams with "effectively nonexistent" attacks (0.05 xG, 0 SoT), eliminated teams in MD3 can find a goal. The "已淘汰=无威胁→abolish" calibration should be universal for MD3 — it applies to ALL teams with any kind of attacking intent, not just teams with elite attackers. The "liberation effect" is a psychological dynamic that transcends talent level.
+
+### Cross-match link
+- This is the 3rd push (let平) in this batch (CIV +2 push, JPN -1 push, NED -2 push) — push认知 is now unquestionably the most stable increment in the calibration system.
+- "已淘汰≠无威胁" calibration (from Haiti 2-goal lesson) applies here too — Tunisia scored, proving the point even for weak teams.

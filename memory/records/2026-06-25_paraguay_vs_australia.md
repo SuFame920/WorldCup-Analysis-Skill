@@ -5,7 +5,7 @@ display: 巴拉圭 vs 澳大利亚
 competition: WC2026 — Group D (MD3)
 venue: Levi's Stadium, Santa Clara
 kickoff_utc: 2026-06-26T02:00Z (北京时间 6/26 10:00)
-status: pending
+status: settled
 ---
 
 ## Prediction (made pre-match)
@@ -57,12 +57,39 @@ status: pending
 ---
 
 ## Actual (filled on settlement)
-- final:  | HT:  | 
+**Paraguay 0–0 Australia (HT 0–0)**
 
-## Reflection (filled on settlement)
-- 
+Match flow: Australia controlled possession (~55%) but couldn't break down Paraguay's organized defense. Paraguay GK Orlando Gill made key saves (Jackson Irvine, Cristian Volpato stops). Paraguay offered little going forward — Almirón absence crippled creativity as predicted. A tactical stalemate from start to finish. Australia advances to R32 as Group D runner-up.
+
+## Settlement
+| Market | Picks | Hit? | Notes |
+|--------|-------|:----:|-------|
+| 1X2 | **平** / 巴拉圭胜 | **✅ 主选** | Draw = primary pick. Perfect prediction. |
+| 让球 (平手盘 0球) | **走盘(平)** / 赢盘(巴胜) | **✅ 主选** | 0-0 = 走盘/退款 |
+| 比分 | 1-0 / 1-1 / 2-0 | **✗** | Actual 0-0. 0-0 was NOT in the bucket. |
+| 大小球 (1.5/2) | 1球 / 2球 | **✗** | Actual = 0球. Below the already-low prediction. |
+| 半全场 | **平平** / 平胜 | **✅ 主选** | HT 0-0, FT 0-0 = 平平. Perfect. |
+
+**Scorecard: 3/5** — 1X2✅ 让球✅(走盘) 比分✗ 大小✗ 半全✅
+
+## Reflection (5-whys + channel attribution)
+
+1. **Why was the core thesis correct?** "Draw is the single most likely result" was spot-on (50/100 confidence). Australia's "打平即出线" motivation executed perfectly — controlled the game, took zero risks. Paraguay's Almirón-less attack was as toothless as predicted. The 平手盘走盘预测完全命中。
+
+2. **Why 0-0 instead of 1-0 or 1-1?** The prediction had Paraguay scoring at least once (all 3 score picks: 1-0/1-1/2-0). But without Almirón, Paraguay's attack was truly inert — 0 goals, very few chances created. The prediction acknowledged the "extremely narrow scoring range" (0-1-2 goals区间) but didn't include 0-0 as a bucket.
+
+3. **Why did totals miss?** The game fell BELOW the already-low prediction (1球→0球). When both teams are defensively organized AND one has zero attacking ambition (Australia happy with draw) AND the other has zero attacking capability (Paraguay without Almirón), 0-0 becomes a structural possibility, not just variance.
+
+4. **Transfer:** In "打平即出线 vs 必须赢但进攻核心缺阵" scenarios, 0-0 should be explicitly included in the score bucket. The "双方低位→1球/2球极窄区间" assumption should include 0球 when BOTH conditions (零进攻动机 + 零进攻能力) are met simultaneously. This is different from typical "must-win opens things up" dynamics — sometimes a must-win team simply cannot deliver.
+
+5. **Why was 平平 the correct 半全场?** This is the archetypal "双方试探、谁也破不了谁" game. HT 0-0, FT 0-0 — the prediction correctly identified that neither team had the tools to break through.
 
 ## Transfer notes
-- about Paraguay: 阿尔米隆的创造力不可替代；缺他时进攻效率从"一般"降至"极差"；防守组织依然稳固但被迫主动控球时暴露短板
-- about Australia: 5-4-1 低位+快速反击是清晰身份，打平即出线时执行力极强；Irankunda 是改变比赛的人
-- context-drift caveats: 若进入淘汰赛，澳大利亚"打平即晋级"的动机优势消失；巴拉圭若阿尔米隆复出则进攻评估需大幅上调
+- about Paraguay: Almirón's creativity is irreplaceable; without him, Paraguay's attack goes from "limited" to "nonexistent." Enciso couldn't fill the void alone.
+- about Australia: 5-4-1 low-block + fast counter is a clear identity. When "打平即出线," execution is near-perfect defensively. But their own attack was also pedestrian (0 goals) — they had the same output as Paraguay.
+- context-drift caveats: 淘汰赛无"打平即出线"优势; Paraguay若Almirón复出则进攻评估需大幅上调; Australia's counter-attack becomes more dangerous against stronger opponents who push forward.
+- **New calibration subtype:** "双方无力破门" — when both attacking capability AND motivation are missing (Paraguay: no Almirón + defensive structure; Australia: draw suffices + not pushed to attack), 0-0 must be in score bucket.
+
+---
+
+*记录于 2026-06-25 · 结算于 2026-06-26 · 状态：settled*

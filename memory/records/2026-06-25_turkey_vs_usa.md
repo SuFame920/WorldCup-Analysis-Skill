@@ -98,3 +98,47 @@
 - B-8: MD3阶段溢价 ✅
 - "已淘汰=无威胁"废除 → 土耳其有真实攻击手(Güler/Yıldız/Çalhanoğlu)≠无威胁 ✅
 - "被动轮换≠弱化"区分 → 美国=被动轮换(保护黄牌+无欲无求),非主动轮换(争先/里程碑) ✅
+
+---
+
+## Post-match ✅
+
+### Actual Result
+**Turkey 2-2 USA (HT 2-1)**
+
+Goals:
+- Auston Trusty (USA) 3' — header from Sebastian Berhalter corner; USA's rotated XI strikes first!
+- Arda Güler (TUR) 10' — first World Cup goal; Real Madrid star equalizes
+- Orkun Kökçü (TUR) 31' — puts Turkey ahead 2-1
+- Sebastian Berhalter (USA) 49' — long-range strike, equalizes 2-2; his 1st WC goal
+- Christian Pulisic: subbed on 58', hit the post
+
+Match flow: Explosive first half — 3 goals in 31 minutes. USA rotated 9 starters but scored inside 3 minutes. Turkey responded through Güler and Kökçü to lead at HT. USA equalized early in 2nd half. Both sides had chances to win but 2-2 was fair.
+
+### Settlement
+| Market | Picks | Hit? | Notes |
+|--------|-------|:----:|-------|
+| 1X2 | 平 / 土耳其胜 | **✅ 主选** | Draw = 主选命中。"土耳其不败"覆盖成功 |
+| 让球 (USA -1: Turkey +1) | 让负(=Turkey+1不败) | **✅ 主选** | 2-2, Turkey +1 covers. 美国轮换阵容没过盘! |
+| 比分 | 1-1 / 2-1土耳其 | **✗** | Actual 2-2. Close call — Turkey led 2-1 at HT. USA equalizer pushed it to 2-2. |
+| 大小球 (2.5) | 2球 / 3球 | **✗** | Actual = 4球 Over. 双方早期爆发 →3球在31分钟就打出，远超预期 |
+| 半全场 | 平平 / 平胜 | **✗** | Actual = 胜平 (HT Turkey leads 2-1, FT draw). HT was NOT a draw. |
+
+**Scorecard: 2/5** — 1X2✅ 让球✅ / 比分✗ 大小✗ 半全✗
+
+### Reflection (5-whys + channel attribution)
+
+1. **Why was the totals miss so large (2球→4球)?** The game exploded early: 3 goals in 31 minutes. Both teams scored within 10 minutes (3' and 10'). When both teams score very early, the game opens up structurally — nobody can sit back. Pochettino's rotated XI played with nothing to lose, and Turkey's attack finally found its scoring touch. This is a distinct MD3 pattern from the "must-win desperation" dynamic — it's the **"no-stakes exhibition"** where both teams play freely.
+
+2. **What was correctly identified?** The "Turkey不败" thesis was correct — the rotated USA couldn't win even with the 3rd-minute lead. Turkey's xG regression (62 shots without a goal → finally scored 2!) was validated: Güler and Kökçü both found the net. The 竞彩认知差值 (-28%) signal was real.
+
+3. **Why did 比分 miss?** Turkey led 2-1 at HT — the "2-1 土耳其" secondary was LITERALLY the HT score and the correct DIRECTION. But the USA equalizer (Berhalter 49') pushed it to 2-2. The prediction correctly identified that USA wouldn't get shut out — they scored 2 — but had capped US goals at 1.
+
+4. **Why did 半全场 miss?** Three goals in 31 minutes meant HT was 2-1 Turkey. The "both sides feeling each other out → 0-0 half" assumption was blown up by the early corner goal. Trusty's 3rd-minute header from a Berhalter corner — set-piece execution from the rotated XI — was a scenario not accounted for.
+
+5. **Root cause:** The pre-match analysis correctly identified the "Turkey不败" direction but underestimated the pace and openness of the game. "Both teams with no-stakes motivation in MD3" produced a different dynamic from the standard MD3 patterns — more like a friendly exhibition with high intensity. **New MD3 subtype: "no-stakes exhibition" (both teams already have outcome resolved) → totals should be pushed even higher than standard MD3 premium → 3.5-4+ 球 possibility.**
+
+### Key transfer
+- "Passive rotation ≠ weakened" (calibration #3) was confirmed: USA's rotated XI scored 2 goals and led early. The bench was hungry.
+- When BOTH teams have low competitive stakes (USA already top, Turkey already eliminated), the game can become a high-scoring open exhibition — this is distinct from the "must-win desperation" or "one-side-must-win" MD3 dynamics.
+- Turkey's xG regression was real and predictable — this validates the "don't give up on structurally strong attacks" principle.
