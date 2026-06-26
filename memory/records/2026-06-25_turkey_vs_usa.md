@@ -101,44 +101,46 @@
 
 ---
 
-## Post-match ✅
+## Post-match ✅ (REVISED 2026-06-27 — original incorrectly recorded 2-2)
 
 ### Actual Result
-**Turkey 2-2 USA (HT 2-1)**
+**Turkey 3-2 USA (HT 2-1)**
 
 Goals:
 - Auston Trusty (USA) 3' — header from Sebastian Berhalter corner; USA's rotated XI strikes first!
 - Arda Güler (TUR) 10' — first World Cup goal; Real Madrid star equalizes
 - Orkun Kökçü (TUR) 31' — puts Turkey ahead 2-1
 - Sebastian Berhalter (USA) 49' — long-range strike, equalizes 2-2; his 1st WC goal
+- **Kaan Ayhan (TUR) 90+8' — stoppage-time winner, 3-2! Final kick of the match**
 - Christian Pulisic: subbed on 58', hit the post
 
-Match flow: Explosive first half — 3 goals in 31 minutes. USA rotated 9 starters but scored inside 3 minutes. Turkey responded through Güler and Kökçü to lead at HT. USA equalized early in 2nd half. Both sides had chances to win but 2-2 was fair.
+Match flow: Explosive first half — 3 goals in 31 minutes. USA rotated 9 starters but scored inside 3 minutes. Turkey responded through Güler and Kökçü to lead at HT. USA equalized early in 2nd half. Game looked headed for 2-2 — but Kaan Ayhan struck in the 98th minute to give Turkey a 3-2 victory. Turkey's first and only win of the tournament.
 
-### Settlement
+### Settlement (REVISED)
 | Market | Picks | Hit? | Notes |
 |--------|-------|:----:|-------|
-| 1X2 | 平 / 土耳其胜 | **✅ 主选** | Draw = 主选命中。"土耳其不败"覆盖成功 |
-| 让球 (USA -1: Turkey +1) | 让负(=Turkey+1不败) | **✅ 主选** | 2-2, Turkey +1 covers. 美国轮换阵容没过盘! |
-| 比分 | 1-1 / 2-1土耳其 | **✗** | Actual 2-2. Close call — Turkey led 2-1 at HT. USA equalizer pushed it to 2-2. |
-| 大小球 (2.5) | 2球 / 3球 | **✗** | Actual = 4球 Over. 双方早期爆发 →3球在31分钟就打出，远超预期 |
-| 半全场 | 平平 / 平胜 | **✗** | Actual = 胜平 (HT Turkey leads 2-1, FT draw). HT was NOT a draw. |
+| 1X2 | 平 / 土耳其胜 | **✅ 次选** | 土耳其 WIN = 次选命中。最初(错误)标记为主选(平)命中——平局未发生。双选"土耳其不败"覆盖成功。 |
+| 让球 (USA -1: Turkey +1) | 让负(=Turkey+1不败) | **✅ 主选** | 3-2, Turkey +1 covers. 美国轮换阵容没过盘! |
+| 比分 | 1-1 / 2-1土耳其 | **✗** | Actual 3-2. 2-1土耳其是HT比分但非FT。绝杀把2-2推成3-2——比分桶里没有3-2。 |
+| 大小球 (2.5) | 2球 / 3球 | **✗** | Actual = 5球. 即使补时绝杀计入=5球,远超预期(最初错记4球时仍然未中)。 |
+| 半全场 | 平平 / 平胜 | **✗** | Actual = 胜负 (HT Turkey 2-1, FT Turkey 3-2). HT不是平,FT是土耳其胜。"平胜"方向对(土耳其不败)但格位错。 |
 
-**Scorecard: 2/5** — 1X2✅ 让球✅ / 比分✗ 大小✗ 半全✗
+**Scorecard: 2/5** (不变——1X2主→次切换不影响计数) — 1X2✅ 让球✅ / 比分✗ 大小✗ 半全✗
 
-### Reflection (5-whys + channel attribution)
+### Reflection (5-whys + channel attribution) — REVISED
 
-1. **Why was the totals miss so large (2球→4球)?** The game exploded early: 3 goals in 31 minutes. Both teams scored within 10 minutes (3' and 10'). When both teams score very early, the game opens up structurally — nobody can sit back. Pochettino's rotated XI played with nothing to lose, and Turkey's attack finally found its scoring touch. This is a distinct MD3 pattern from the "must-win desperation" dynamic — it's the **"no-stakes exhibition"** where both teams play freely.
+1. **结算流程失败——比分都记错了。** 这是本系统最严重的元失误。前4球都列对了,但漏掉了补时绝杀(Kaan Ayhan 90+8')。可能原因:比赛结束时过早关闭了投注平台或比分源,没有等到最后;或者赛后从简讯而非全时记录中抄录。**修复:结果必须从≥2源交叉确认,且在比赛完全结束后≥30分钟才写结算。**
 
-2. **What was correctly identified?** The "Turkey不败" thesis was correct — the rotated USA couldn't win even with the 3rd-minute lead. Turkey's xG regression (62 shots without a goal → finally scored 2!) was validated: Güler and Kökçü both found the net. The 竞彩认知差值 (-28%) signal was real.
+2. **为什么 totals 错得这么离谱(押2-3球→实5球)?** 早期3球在31分钟内就炸了。双方均已无关紧要的MD3展览赛意味着自由进攻=进球远超预期。"已出线vs已淘汰"在"双方均已定排名"时不是保守因素——反而是开放因素。此与校准#10(MD3亚型)一致但被低估了幅度。
 
-3. **Why did 比分 miss?** Turkey led 2-1 at HT — the "2-1 土耳其" secondary was LITERALLY the HT score and the correct DIRECTION. But the USA equalizer (Berhalter 49') pushed it to 2-2. The prediction correctly identified that USA wouldn't get shut out — they scored 2 — but had capped US goals at 1.
+3. **先知对了什么?** "土耳其不败"论文正确——轮换美国的二阵阵容即使第3分钟就领先也无法赢球。土耳其xG均值回归(62射0球→最终进球2+1=3!)得到验证。竞彩认知差值(-28%)信号为真。
 
-4. **Why did 半全场 miss?** Three goals in 31 minutes meant HT was 2-1 Turkey. The "both sides feeling each other out → 0-0 half" assumption was blown up by the early corner goal. Trusty's 3rd-minute header from a Berhalter corner — set-piece execution from the rotated XI — was a scenario not accounted for.
+4. **半全场为何错?** 3分和10分的爆发进球意味着半场2-1土耳其。Trusty 3分钟角球头槌打烂了"双方试探→半场0-0"的假设。8分钟补时绝杀"胜平"变"胜负"——但即使没有绝杀,"平胜/平平"都无法命中,因为HT就不平。**校正:两支"无利害"但都有真实攻击手的球队→半场不该默认平。**
 
-5. **Root cause:** The pre-match analysis correctly identified the "Turkey不败" direction but underestimated the pace and openness of the game. "Both teams with no-stakes motivation in MD3" produced a different dynamic from the standard MD3 patterns — more like a friendly exhibition with high intensity. **New MD3 subtype: "no-stakes exhibition" (both teams already have outcome resolved) → totals should be pushed even higher than standard MD3 premium → 3.5-4+ 球 possibility.**
+5. **根因:** MD3"表演赛"亚型的攻击爆发幅度被低估。**将此亚型总进球上浮幅度从+0.5-1球更新为+1-1.5球。** 当双方均已定排名且都有真实终结点→可飙到5球。
 
 ### Key transfer
-- "Passive rotation ≠ weakened" (calibration #3) was confirmed: USA's rotated XI scored 2 goals and led early. The bench was hungry.
-- When BOTH teams have low competitive stakes (USA already top, Turkey already eliminated), the game can become a high-scoring open exhibition — this is distinct from the "must-win desperation" or "one-side-must-win" MD3 dynamics.
-- Turkey's xG regression was real and predictable — this validates the "don't give up on structurally strong attacks" principle.
+- "已淘汰=无威胁"→**再次废除**(土耳其3球!)
+- MD3表演赛亚型→总进球上浮+1-1.5球(原+0.5-1),比分上限放宽到3-2、4-2级
+- **结算流程:** 必须≥2源确认,比赛结束后≥30分钟才写——本场是"过早关源"的教科书反例
+- 此场是对 v1.3 校准#8(MD3阶段溢价)的**确认而非否定**——溢价比预判的更猛烈
