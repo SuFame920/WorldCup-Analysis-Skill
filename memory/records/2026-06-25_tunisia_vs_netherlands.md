@@ -117,7 +117,7 @@ Attendance: 68,391. Netherlands top Group F (7 pts), will face Morocco in R32.
 | 大小球 (3.25) | 3球/4球 | **✅ 次选** | Actual 4球 Over. Cross-line coverage strategy worked! |
 | 半全场 | 负负 | **✅** | HT 0-2, FT 1-3. NED led at HT and won FT. |
 
-**Scorecard: 4/5** — 1X2✅ 让球✅(次/push) 比分✗ 大小✅(次) 半全✅
+**Scorecard: 3/5** — 1X2✅ 让球✅(次/push) 比分✗ 大小✅(次) 半全✅
 
 ### Reflection (5-whys + channel attribution)
 
