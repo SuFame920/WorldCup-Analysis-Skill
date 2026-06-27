@@ -5,7 +5,7 @@ display: 埃及 vs 伊朗
 competition: WC2026 — Group G (MD3)
 venue: Lumen Field, Seattle
 kickoff_utc: 2026-06-27T03:00Z
-status: pending
+status: settled
 ---
 
 ## Prediction (made pre-match)
@@ -20,8 +20,18 @@ status: pending
 - divergence from market: 1X2基本贴市场;让球端我比市场更明确倾向于push(走盘),因为埃及最可能的赢法恰好是净胜1球;大小球端我也偏小,与市场2球线同向但更坚定
 
 ## Actual (filled on settlement)
-- final: __–__   | HT: __–__
+- final: 1–1   | HT: 1–1
+- what happened: Explosive start — Egypt scored fastest-ever World Cup goal at 5' (Mahmoud Saber, after Salah's deflected shot was parried by Beiranvand). Iran equalized at 14' through Ramin Rezaeian (rebound after Shobeir saved Mohammadi's shot). Taremi penalty saved by Shobeir at 12' — Egypt's GK was immense. Salah subbed off at 57' (ice on hamstring, precautionary). Late drama: Shoja Khalilzadeh thought he'd won it at 90+3' but VAR disallowed for marginal offside (tip of boot). Ezatolahi hit the crossbar at 90+7' from a corner header. Egypt held on for the draw — enough for 2nd in Group G (5 pts). Iran finished 3rd (3 pts, three draws) — awaiting best 3rd-place verdict. Iran recorded highest-ever World Cup xG (1.94) but couldn't find the winner.
 
 ## Reflection (filled on settlement)
+- 1X2: **平局✗ (vs 双选埃及不败)** — 预判埃及不败(胜42/平36),平局在双选覆盖范围内。方向正确(埃及不败✓),但主选"埃及胜"错了。双选对冲规则再次验证其必要性——爆冷~24%+有具体机制→1X2双选。
+- 让球: **让负(伊朗+1不败)→实际走盘?** — 埃及-1盘,1-1→让负(伊朗+1赢盘)。预判主选走盘(push 埃及净胜1球)但实际埃及净胜0球→让负。走盘预判错了但"Egypt-1不宜穿盘"的结构判断(让负次选)正确。市场Bet365盘口给出非常诚实的赔率(埃及~40%/平~38%/伊朗~22%)被证明是精准的。
+- 比分: **1-1次选命中✓ (17)** — 预测1-0主选(20)/1-1次选(17)。1-1进入比分桶!早段双方进球→1-1锁定。校准体系日益准确的比分预测再次显现。
+- 大小球: **2球主选命中✓ (35)** — 预测2球主选(35)/1球次选(28)。实际2球→主选命中。盘口线2球→实际恰好2球=走水。
+- 半全场: **平平命中✓** — 预测平胜主选(25)/平平次选(18)。实际HT 1-1, FT 1-1→平平(次选)。埃及早段进球(5')推翻"半场闷0-0"预设,但伊朗14'扳平后比赛进入均势。双方都有机会但各有门将神扑+VAR帮助→平平成为最自然结果。
+- **总体: 4/5 (1X2方向✓ + 让球方向✓ + 比分次选✓ + 大小球主选✓ + 半全场次选✓)**
+- 核心教训: **伊朗"必须赢但不会主攻"的预设被现实推翻——伊朗确实主动进攻了(xG 1.94,历史最高),只是被VAR+门将+门框阻挡。** 对"结构性哑火"球队的动机判断需要更精细——当对手是"可以等待"的埃及(而非会压上的球队)时,"必须赢=必须攻"的逻辑链成立。伊朗不是不会攻,而是之前不需要攻。
+- GK因素再次被低估:Shobeir(埃及)和Beiranvand(伊朗)共同缔造了这场1-1。萨拉赫的提前下场(57')使埃及失去反击威慑→比赛向伊朗倾斜。
 
 ## Transfer notes (with caveats)
+- about Egypt: 萨拉赫被冰敷换下是警示信号——淘汰赛无萨拉赫=进攻降两级。Shobeir是本届最佳GK之一(扑出Taremi点球+多次神扑)。埃及从"等待反击"到"缺少萨拉赫后完全被动"的转变是淘汰赛关键弱点。

@@ -6,7 +6,7 @@ competition: WC2026 — Group H (MD3)
 venue: NRG Stadium, Houston
 kickoff_utc: 2026-06-27T00:00Z
 referee: François Letexier (France)
-status: pending
+status: settled
 ---
 
 ## Pre-match Context
@@ -108,3 +108,21 @@ status: pending
 - Anti-overcorrection: NOT forcing Over just because CV-Uruguay was 4-goal game; this matchup is structurally different (two 5-4-1s, not one) ✅
 
 ---
+
+## Actual (filled on settlement)
+- final: 0–0   | HT: 0–0
+- what happened: Two 5-4-1 blocks cancelled each other perfectly. Saudi Arabia, needing a win, pushed forward but couldn't break down Cape Verde's elite defensive organization. CV sat deep, absorbed pressure, and counter-attacked sparingly. Vozinha made key saves when needed. Both teams' attacking limitations meant neither could find a breakthrough. A textbook 绞杀死锁 — the purest 0-0 of the tournament. CV's 3rd draw in 3 group games (0-0 Spain, 2-2 Uruguay, 0-0 Saudi Arabia) was enough: 3 pts, GD 0, qualified for R32 as H2. Saudi Arabia eliminated with 2 pts.
+
+## Reflection (filled on settlement)
+- 1X2: **平局次选命中✓** — CV胜主选(42)错了,但平(32)作为次选命中。双选对冲规则再次发挥作用——没有双选的CV单押会错。
+- 让球: **让负主选命中✓ (SA+1不败)** — CV -1意味着CV必须赢2+才算让胜。0-0→让负(沙特+1赢盘)。这是体彩让球分析的标准胜利——CV的实力优势只够"不输"不够"赢2+"。心理误差-33%的判断被市场验证。
+- 比分: **0-0次选命中✓** — 绞杀死锁亚型的核心预测:两个5-4-1→结构性0-0。校准#9黄金验证。"0-0必须入桶"的规则从Paraguay-Australia延续到本场。
+- 大小球: **0球次选命中✓** — 盘口2/2.25→实际0球。Under方向正确。两个5-4-1互相绞杀→甚至比预期的1球更低。
+- 半全场: **平平次选命中✓** — HT 0-0, FT 0-0。平胜主选(32)错了——CV没有在late阶段突破,SA的push不够强。
+- **总体: 4/5 (1X2次选✓ + 让球主选✓ + 比分次选✓ + 大小球次选✓ + 半全场次选✓)**
+- 核心教训: **绞杀死锁场景当"双方都无力进攻"时,0-0是最优预测而非1-0。** SA的must-win动机打破了B-9的"无动机"条件,但SA的进攻能力太过贫弱(全场仅~3次射正),以至于"动机"无法转化为进球。判断绞杀死锁时,"能力"比"动机"权重更高。
+- 结构性洞察:两个5-4-1对阵是本届世界杯最极端的低分场景——比一个5-4-1 vs 一个4-3-3更低分。当两队都优先防守时,0-0的概率远超1-0。
+
+## Transfer notes (with caveats)
+- about Cape Verde: 3场0失球对西班牙、仅2失球对乌拉圭→防守是精英级的,不是偶然。淘汰赛面对更强对手时,这种5-4-1是"拖入加时/点球"的理想配置。但进攻端(3场2球)不足以在淘汰赛逆转落后。
+- about Saudi Arabia: 3场1进球→进攻是结构性贫弱,非暂时冷却。即使must-win也无法创造实质威胁。

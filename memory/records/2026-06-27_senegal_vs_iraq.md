@@ -5,7 +5,7 @@ display: 塞内加尔 vs 伊拉克
 competition: WC2026 — Group I (MD3)
 venue: BMO Field, Toronto, Canada
 kickoff_utc: 2026-06-27T07:00Z (北京时间 6/27 15:00)
-status: pending
+status: settled
 ---
 
 ## Prediction (made pre-match)
@@ -84,12 +84,18 @@ status: pending
 ---
 
 ## Actual (filled on settlement)
-- final:  | HT:  | 
+- final: 5–0   | HT: 1–0
+- what happened: Habib Diarra scored at 4' to settle nerves. Iraq's Rebin Sulaka was sent off at 13' (VAR upgraded yellow to straight red for denying obvious goalscoring opportunity — pulling back Sadio Mané). Iraq played 77+ minutes with 10 men. Senegal dominated but only led 1-0 at HT. Second half: Ismaila Sarr (56'), Pape Gueye (59', 71'), and Iliman Ndiaye (82') poured it on. Gueye's second goal was clocked at 132 km/h. Senegal's 5-0 win is the biggest victory by an African nation in World Cup history. Finished 3rd in Group I with 3 pts, GD +2 — qualified as one of the best 3rd-place teams, knocking Scotland out.
 
 ## Reflection (filled on settlement)
--
+- 1X2: **塞内加尔胜主选命中✓ (58/100)** — 方向完全正确。更衣室涣散被外部晋级压力压制——关键时刻球员站出来。
+- 让球: **让胜(塞赢2球+)主选命中✓ (44/100)** — 塞内加尔-1盘,实际净胜5球→穿盘。让胜主选对,让平次选(36)未发生。Iraq早段红牌(13')让走盘概率归零——11v10局势下塞内加尔必然穿盘。
+- 比分: **2-0主选未命中✗** — 预测2-0(22)/2-1(16)/3-1(14)。实际5-0,远超上限。红牌是最大变量——Iraq 11v10还能守住不崩,但10人撑75+分钟后完全瓦解。红牌前预测2-0是合理的,但红牌后应迅速上调到3-0至5-0。
+- 大小球: **5球实际 vs 预测2球主选/3球次选→双双错✗** — 预测与实际的巨大鸿沟。4'早进球+13'红牌+Iraq 10人疲于招架→比赛结构完全改变。红牌是totals的极端化因子——进攻方多一人时,"小"(2球)变成空想。
+- 半全场: **胜胜主选命中✓ (35/100)** — HT 1-0, FT 5-0→胜胜。Diarra 4'闪电进球让半场领先成为事实。预测胜胜(35)和平胜(30),胜胜主选正确。
+- **总体: 3/5 (1X2✓ + 让球✓ + 半全场✓ / 比分✗ 大小球✗)**
+- 核心教训: **早红牌是比分和totals的极端化因子——不能只把它当"小概率事件"忽略。** 13'红牌后,比赛的"净胜球分布"从2-0/2-1/3-1变成4-0/5-0/6-0。红牌方向队(多一人方)的净胜球+2,总进球+2是合理规则。
 
-## Transfer notes
-- about Senegal: 更衣室问题的结构性 > 单场战术判断；外部晋级压力 vs 内部涣散的拉锯是核心未知数
-- about Iraq: 无侯赛因后进攻真空；防守结构漏（两场 7球）是真实弱点
-- context-drift caveats: 若晋级→淘汰赛对手可能为 D1(美国)，防守需大幅改善
+## Transfer notes (with caveats)
+- about Senegal: 即使更衣室问题被暂时压制,淘汰赛面对美国(D1)时这些问题可能复燃——因为"外部晋级压力"已经解除(已晋级)。对美国的比赛是全新的心理测试。Pape Gueye(双响)和Iliman Ndiaye是攻击新发现。
+- about Iraq: 3场失12球,3场全败,0分。但不应仅看结果——vs France 3-0(11v11均衡)、vs Norway(有竞争力)。Sulaka的红牌是本届最快红牌之一(13'),直接摧毁了任何爆冷可能。缺少侯赛因后进攻几乎不存在。

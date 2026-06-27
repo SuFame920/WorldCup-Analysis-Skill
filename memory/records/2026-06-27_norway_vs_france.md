@@ -5,7 +5,7 @@ display: 挪威 vs 法国
 competition: WC2026 — Group I (MD3)
 venue: Gillette Stadium, Foxborough, Massachusetts
 kickoff_utc: 2026-06-27T07:00Z (北京时间 6/27 15:00?)
-status: pending
+status: settled
 ---
 
 ## Prediction (made pre-match)
@@ -78,12 +78,19 @@ status: pending
 ---
 
 ## Actual (filled on settlement)
-- final:  | HT:  | 
+- final: 1–4   | HT: 1–3
+- what happened: Ousmane Dembélé stole the show with a first-half hat-trick — the first at a World Cup since Oleg Salenko in 1994, and the second-fastest in history (completed by 32'). Goals: 7' (Mbappé assist), 20' (left-footed curler), 32' (completed treble). Norway pulled one back at 21' through Thelo Aasgaard (1 minute after Dembélé's second). Norway made 10 changes (rested Haaland, Ødegaard) — their B-team was outclassed. Norway missed a penalty in the 48' (Strand Larsen saved by Maignan). Désiré Doué added a 4th at 90+4' (assist Barcola). France finished Group I with 9/9 pts (perfect record). Norway advanced as runners-up (6 pts). Deschamps absent (family bereavement); assistant Guy Stephan took charge.
 
 ## Reflection (filled on settlement)
-- 
+- 1X2: **法国胜主选命中✓ (65/100)** — 方向完全正确。法国即使轮换5-6人+德尚缺席+萨利巴缺阵,实力还是碾压挪威B队。
+- 让球: **让负(法国净胜2+)→实际净胜3→穿盘✓** — 预判让平(走盘)主选(42)和让负(穿盘)次选(38)。实际净胜3→让负次选命中。让平走盘预判错了——挪威10人轮换(Haaland/Ødegaard休息)是赛前未知的关键信息。如果知道挪威轮换幅度,会让负(穿盘)成为主选。**信息不对称影响:挪威的大幅轮换未被预判捕获。**
+- 比分: **1-2/1-3/2-2全错✗** — 预测1-2(20)/1-3(18)/2-2(15)。实际1-4。1-3最接近但还差1球。比分上限再次偏低——当对手B队出场时,净胜球上限应上调到4球+(3-1/4-1)。
+- 大小球: **5球实际 vs 预测3球主选/4球次选→双双错✗** — 重大的失误。预测3球主选(30)/4球次选(29),但实际总进球5球。根源:不知道挪威会轮换10人→防守强度完全不是正常水平。Dembélé早段帽子戏法(7'/20'/32')彻底打开比赛——与预测的"平负"(半场平)完全相反。
+- 半全场: **负负(法国HT领先/FT胜)命中✓ (30)** — 法国视角:HT 3-1领先,FT 4-1胜→负负。预判平负主选(33)和负负次选(30)。实际HT法国就3-1→负负命中。平负预判错(以为HT会平)——Dembélé 7'闪电破局。但负负次选正确。
+- **总体: 3/5 (1X2✓ + 让球次选✓ + 半全场次选✓ / 比分✗ 大小球✗)**
+- 核心教训: **轮换信息的缺失是本场最大误差来源。** 如果知道挪威轮换10人(休息Haaland/Ødegaard),会让负主选取代让平、比分上限从3球调至4-5球、大小球从3球提到4-5球。**赛前首发信息(F渠道)在MD3轮换场景中是决定性的——必须强制在开赛前1小时检查首发。** 另:Dembélé的爆发(帽子戏法)证明"法国轮换=进攻降级"的预设是错误的——轮换球员的饥渴可以反超先发。
 
-## Transfer notes
-- about Norway: 哈兰德本届4场4球=精英终结者在线;防守端吕尔松缺阵→右路是软肋
-- about France: 轮换5-6人后防线有缝隙;德尚缺席的临场效应待验证;姆巴佩追世界杯进球纪录(16球,距梅西18差2)是真实动机
-- context-drift caveats: 淘汰赛双方动机完全不同——"打平就小组第一"的舒适态消失
+## Transfer notes (with caveats)
+- about Norway: 大幅轮换暴露板凳深度不足。Haaland本届4场4球→淘汰赛会是完全不同的挪威队(全主力出战)。Aasgaard(21'进球)是板凳中少数亮点。挪威淘汰赛将面对科特迪瓦——截然不同的考验。
+- about France: 9/9满分出线,DEMBÉLÉ已成为与姆巴佩并列的双核。德尚缺席未影响——Guy Stephan带队与德尚体系无缝衔接。法国淘汰赛对阵瑞典(F3)——实力优势明显。完美小组赛后需警惕过度自信。
+- 🆕 关键补充: **MD3轮换信息是F渠道的最高优先级事项。** 以后所有MD3/淘汰赛预测必须在kickoff前1小时内主动搜索首发名单——不问"是否轮换",而要确切知道轮换幅度。

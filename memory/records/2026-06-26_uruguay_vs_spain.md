@@ -6,7 +6,7 @@ competition: WC2026 — Group H (MD3)
 venue: Estadio Akron, Guadalajara, Mexico
 kickoff_utc: 2026-06-27T01:00Z
 referee: Ismail Elfath (USA)
-status: pending
+status: settled
 ---
 
 ## Pre-match Context
@@ -118,3 +118,20 @@ status: pending
 - Market sanity check: 竞彩让负过热(+26%心理误差) → I'm below market on Spain covering -1 (38/100 vs market 41%); I'm above market on push/让平
 
 ---
+
+## Actual (filled on settlement)
+- final: 0–1   | HT: 0–1
+- what happened: Álex Baena scored at 42' after a Muslera blunder — a low cross from Llorente, Baena turned and shot, Muslera got two hands to it but fumbled it into the net. Muslera's third costly error of the tournament. He asked to be substituted at half-time and was replaced by Rochet. Uruguay pushed in the 2H but couldn't break Spain's defensive organization. Ugarte went off injured (knee) at 45+'. Valverde was subbed at 57'. Ferran Torres hit the crossbar at 86'. Canobbio received a straight red at 90+5' for a dangerous tackle on Cubarsí. Spain topped Group H (7 pts). Uruguay eliminated in group stage (2 pts) — their second consecutive group-stage exit. Cape Verde advanced as H2.
+
+## Reflection (filled on settlement)
+- 1X2: **西班牙胜主选命中✓ (60/100)** — 方向完全正确。西班牙实力、零失球防守、H2H不败(11场0负)全部兑现。
+- 让球: **让平主选命中✓ (Spain-1走盘)** — 西班牙恰好净胜1球(1-0)→走盘退款。让球push铁律#1再下一城!连续验证的push模式扩展到跨7批25+场。让平(44)主选对,让负次选(38)未发生。
+- 比分: **2-0次选/主选均错✗** — 预测2-0(20)/2-1(22)vs实际1-0。方向正确(西班牙零封)但净胜球高估1球。根源:低估Muslera失误后乌拉圭下半场的防守收紧+西班牙保守控场(1-0后不急于第2球,CV-SA同时0-0意味着西班牙1-0稳操胜券)。
+- 大小球: **1球实际 vs 预测3球/2球→双双错✗** — 大的失误:预测Bielsa高压vs西班牙控球→"结构性较开放"。实际Bielsa高压被西班牙传球消解,Uruguay缺少Araujo+De Arrascaeta后无法持续威胁。西班牙零封态势延续(BTTS西班牙近13场仅3次)。教训:不要因为Bielsa品牌就默认开放——核心创意球员缺阵时,高压=更多无谓跑动而非更多机会。
+- 半全场: **负负(HT Spain领先/FT Spain胜)击中次选✗→实际是负负** — 预测平负主选(34)和负负次选(28)。实际HT 0-1→负负。Baena 42'进球让HT变成客队领先。平负主选错(H不是平)但负负次选命中。半全场方向(FT Spain胜)正确。计为半全场次选命中✓。
+- **总体: 3/5 (1X2✓ + 让球✓ + 半全场次选✓ / 比分✗ 大小球✗)**
+- 核心教训: **"Bielsa=乱战"的刻板印象被西班牙纪律消解。** 当对手能稳定控球消解高压时,高压带来的不是更多进球而是更多失误。另:Muslera崩溃(40岁,第3次失误)验证"GK是大龄球队阿喀琉斯之踵"。
+
+## Transfer notes (with caveats)
+- about Uruguay: 连续两届小组出局→Bielsa时代需彻底反思。缺少Araujo+De Arrascaeta被证明致命——防守松散+中场无创造力。Muslera 3次失误直接送走关键积分。
+- about Spain: 3场仅失0球→防守精英级。但进攻端对深度防守仍有困难(0-0 CV, 1-0 URU)——淘汰赛面对铁桶阵时仍存弱点。Baena是中场新核。
