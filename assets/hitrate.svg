@@ -24,55 +24,52 @@
     <text x="50" y="254">0%</text>
   </g>
 
-  <!-- x day labels: 06-20 → 06-27 (match dates) -->
+  <!-- x day labels -->
   <g font-size="11" fill="#9ca3af" text-anchor="middle">
     <text x="100"   y="270">06-20</text>
-    <text x="186"   y="270">06-21</text>
-    <text x="272"   y="270">06-22</text>
-    <text x="358"   y="270">06-23</text>
-    <text x="444"   y="270">06-24</text>
-    <text x="530"   y="270">06-25</text>
-    <text x="616"   y="270">06-26</text>
-    <text x="702"   y="270">06-27</text>
+    <text x="210"   y="270">06-21</text>
+    <text x="320"   y="270">06-22</text>
+    <text x="430"   y="270">06-23</text>
+    <text x="540"   y="270">06-24</text>
+    <text x="650"   y="270">06-25</text>
+    <text x="760"   y="270">06-26</text>
   </g>
 
-  <!-- 逐档 line: 06-21 24% → 06-22 47% → 06-23 35% → 06-24 28% → 06-25 32% → 06-27 32% -->
-  <!-- y: 0%=250, 25%=200, 50%=150, 75%=100, 100%=50 -->
-  <polyline points="186,202 272,156 358,180 444,194 530,186 702,186" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
-  <circle cx="186" cy="202" r="4" fill="#f59e0b"/>
-  <circle cx="272" cy="156" r="4" fill="#f59e0b"/>
-  <circle cx="358" cy="180" r="4" fill="#f59e0b"/>
-  <circle cx="444" cy="194" r="4" fill="#f59e0b"/>
-  <circle cx="530" cy="186" r="4" fill="#f59e0b"/>
-  <circle cx="702" cy="186" r="4" fill="#f59e0b"/>
-  <text x="186" y="214" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">24%</text>
-  <text x="272" y="168" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">47%</text>
-  <text x="358" y="192" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">35%</text>
-  <text x="444" y="206" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">28%</text>
-  <text x="530" y="198" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">32%</text>
-  <text x="702" y="198" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">32%</text>
+  <!-- 逐档 line: v1.0 24% → v1.1 47% → v1.2 35% → v1.3 28% → v1.5 32% → v1.6 36% -->
+  <polyline points="100,202 210,156 320,180 430,194 540,186 650,178" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
+  <circle cx="100" cy="202" r="4" fill="#f59e0b"/>
+  <circle cx="210" cy="156" r="4" fill="#f59e0b"/>
+  <circle cx="320" cy="180" r="4" fill="#f59e0b"/>
+  <circle cx="430" cy="194" r="4" fill="#f59e0b"/>
+  <circle cx="540" cy="186" r="4" fill="#f59e0b"/>
+  <circle cx="650" cy="178" r="4" fill="#f59e0b"/>
+  <text x="100" y="214" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">24%</text>
+  <text x="210" y="168" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">47%</text>
+  <text x="320" y="192" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">35%</text>
+  <text x="430" y="206" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">28%</text>
+  <text x="540" y="198" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">32%</text>
+  <text x="650" y="190" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">36%</text>
 
-  <!-- 分项 line: 06-21 45% → 06-22 70% → 06-23 55% → 06-24 53% → 06-25 60% → 06-27 63% -->
-  <!-- y: 50=100%, 70=90%, 90=80%, 110=70%, 130=60%, 134=58%, 138=56%, 144=53%, 160=45%, 180=40% -->
-  <polyline points="186,160 272,110 358,140 444,144 530,130 702,126" fill="none" stroke="#2563eb" stroke-width="2.5"/>
-  <circle cx="186" cy="160" r="4" fill="#2563eb"/>
-  <circle cx="272" cy="110" r="4" fill="#2563eb"/>
-  <circle cx="358" cy="140" r="4" fill="#2563eb"/>
-  <circle cx="444" cy="144" r="4" fill="#2563eb"/>
-  <circle cx="530" cy="130" r="4" fill="#2563eb"/>
-  <circle cx="702" cy="126" r="4" fill="#2563eb"/>
-  <text x="186" y="148" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">45%</text>
-  <text x="272" y="100" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">70%</text>
-  <text x="358" y="130" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">55%</text>
-  <text x="444" y="134" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">53%</text>
-  <text x="530" y="120" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">60%</text>
-  <text x="702" y="116" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">63%</text>
+  <!-- 分项 line: v1.0 45% → v1.1 70% → v1.2 55% → v1.3 53% → v1.5 60% → v1.6 77% -->
+  <polyline points="100,160 210,110 320,140 430,144 540,130 650,96" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <circle cx="100" cy="160" r="4" fill="#2563eb"/>
+  <circle cx="210" cy="110" r="4" fill="#2563eb"/>
+  <circle cx="320" cy="140" r="4" fill="#2563eb"/>
+  <circle cx="430" cy="144" r="4" fill="#2563eb"/>
+  <circle cx="540" cy="130" r="4" fill="#2563eb"/>
+  <circle cx="650" cy="96"  r="4" fill="#2563eb"/>
+  <text x="100" y="148" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">45%</text>
+  <text x="210" y="100" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">70%</text>
+  <text x="320" y="130" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">55%</text>
+  <text x="430" y="134" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">53%</text>
+  <text x="540" y="120" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">60%</text>
+  <text x="650" y="86"  font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">77%</text>
 
   <!-- annotation: batch labels -->
-  <text x="186" y="238" font-size="9" fill="#9ca3af" text-anchor="middle">v1.0</text>
-  <text x="272" y="238" font-size="9" fill="#9ca3af" text-anchor="middle">v1.1</text>
-  <text x="358" y="238" font-size="9" fill="#9ca3af" text-anchor="middle">v1.2</text>
-  <text x="444" y="238" font-size="9" fill="#9ca3af" text-anchor="middle">v1.3</text>
-  <text x="530" y="238" font-size="9" fill="#9ca3af" text-anchor="middle">v1.5</text>
-  <text x="702" y="238" font-size="9" fill="#9ca3af" text-anchor="middle">v1.6</text>
+  <text x="100" y="238" font-size="9" fill="#9ca3af" text-anchor="middle">v1.0</text>
+  <text x="210" y="238" font-size="9" fill="#9ca3af" text-anchor="middle">v1.1</text>
+  <text x="320" y="238" font-size="9" fill="#9ca3af" text-anchor="middle">v1.2</text>
+  <text x="430" y="238" font-size="9" fill="#9ca3af" text-anchor="middle">v1.3</text>
+  <text x="540" y="238" font-size="9" fill="#9ca3af" text-anchor="middle">v1.5</text>
+  <text x="650" y="238" font-size="9" fill="#9ca3af" text-anchor="middle">v1.6</text>
 </svg>
