@@ -1,23 +1,29 @@
 ---
-name: worldcup-analysis-skill
+name: football-analysis-skill
 description: >-
-  Analyze and predict a specific football match — especially 2026 FIFA World Cup
-  fixtures — and produce an explainable forecast: an overall read plus 胜平负 (1X2),
-  让球/亚盘 (Asian handicap), 比分 (correct score), 进球数/大小球 (total goals O/U), and
-  半全场 (HT/FT), with a dedicated sub-analysis behind every single pick. Use this
-  whenever the user asks to 分析 or 预测 a match, names two teams (optionally with a
-  date), mentions 世界杯 / World Cup / 盘口 / 让球 / 亚盘 / 大小球 / 比分 / 半全场, or asks
-  "who will win / 谁会赢 / 这场怎么看". The skill pulls LIVE data (ratings, league stats,
-  injuries, predicted lineups, market odds) and reasons causally about mechanisms
-  rather than echoing statistical co-occurrence. Do NOT use for generic football
-  history/trivia with no prediction intent, or for fantasy-team drafting.
+  Analyze and predict a specific football match — covering any competition (World Cup,
+  domestic leagues, continental cups, friendlies) — and produce an explainable forecast:
+  an overall read plus 胜平负 (1X2), 让球/亚盘 (Asian handicap), 比分 (correct score),
+  进球数/大小球 (total goals O/U), and 半全场 (HT/FT), with a dedicated sub-analysis behind
+  every single pick. Use this whenever the user asks to 分析 or 预测 a match, names two
+  teams (optionally with a date), mentions 世界杯 / World Cup / 联赛 / 盘口 / 让球 / 亚盘 /
+  大小球 / 比分 / 半全场, or asks "who will win / 谁会赢 / 这场怎么看". The skill pulls LIVE
+  data (ratings, league stats, injuries, predicted lineups, market odds) and reasons
+  causally about mechanisms rather than echoing statistical co-occurrence. Do NOT use for
+  generic football history/trivia with no prediction intent, or for fantasy-team drafting.
 ---
 
-# World Cup Analysis
+# Football Match Analysis
 
 Turn "analyze and predict this match" into a forecast a serious fan can act on and
 **argue with** — every call traceable to a reasoning chain, every pick carrying its own
 sub-analysis. The job is to be **calibrated, explainable, decisive, and readable by a layperson**.
+
+**Works for any competition**: World Cup (group stage + knockout), domestic leagues
+(Premier League / La Liga / Serie A / etc.), continental cups (Champions League /
+Copa Libertadores / etc.), friendlies. The pipeline auto-detects context from the match:
+league → table pressure & home/away splits; knockout → extra time path; group stage →
+qualification scenarios & rotation risk; friendly → higher rotation, lower intensity.
 
 ## 你是谁:一位资深球迷的视角(persona)— 用户定制 ①
 
@@ -95,10 +101,8 @@ Run the funnel in this order; each stage has a reference file.
    reflection (score + channel-attributed diagnosis), mark it settled. Load the settled
    reflections **and `memory/corrections.md`'s standing corrections** as **Channel H**
    (see double-counting rules). → `references/memory-protocol.md`.
-   **Also load `memory/standings-tracker.md`** for current group standings, qualified teams,
-   and the confirmed/projected Round of 32 bracket — use this as authoritative tournament
-   context (group position, remaining stakes, qualification status) rather than re-deriving
-   from scratch. Update it whenever standings or bracket slots change.
+   **If applicable**, load standings/tournament context (group tables, bracket state, league
+   table pressure) from `memory/` — use as authoritative rather than re-deriving from scratch.
 3. **召回 Recall (parallel, multi-channel).** Pull every channel into typed evidence
    records. → `references/recall-channels.md`, schema in `references/evidence-schema.md`.
    The channels are independent and parallelizable; treat each as its own retrieval job.
@@ -172,8 +176,9 @@ Run the funnel in this order; each stage has a reference file.
   are the strongest available baseline. Use them as both an input and a reality check.
   Diverging from the market is allowed but must be *earned* by a specific mechanism, and
   flagged.
-- **Respect World Cup variance.** Even a clear favorite usually wins ~55–65%; draws are
-  common in tight matchups; one game is mostly noise. Calibrate accordingly — see the caps
+- **Respect single-match variance.** Even a clear favorite usually wins ~55–65%; draws are
+  common in tight matchups; one game is mostly noise. In cup finals or high-stakes knockout
+  matches, variance is even higher. Calibrate accordingly — see the caps
   in the synthesis reference.
 - **Use current sources only.** The data landscape shifts (e.g., FBref is historical-only
   since it lost its Opta licence in Jan 2026). Use the vetted, tiered list in

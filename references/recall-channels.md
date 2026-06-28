@@ -58,11 +58,13 @@ for past-season context, not current.
 **Goal:** recent trajectory and matchup history, with the right discount.
 **Pull:** last ~5–6 matches per team (results + underlying xG, not just scorelines — a team
 can lose while creating more), head-to-head record, and **schedule effects**: days of rest,
-travel, congestion, altitude/heat of the venue. For group-stage matches, capture the
-**qualification scenario** (already through / must-win / dead rubber) — this drives rotation
-and intensity and is invisible to a flat model.
+travel, congestion, altitude/heat of the venue.
+**Context-aware stakes:** for league play, capture table position and points needed. For
+cup/knockout, capture the stage (two-legged tie? single elimination? away-goals rule?).
+For tournament group stages, capture qualification scenarios, rotation risk, and dead-rubber
+vs must-win dynamics — these drive rotation and intensity and are invisible to a flat model.
 **Emit:** form trend, underlying-vs-results gap, H2H pattern, rest/travel/venue notes,
-group-stage stakes.
+competition-stage context (league table pressure / knockout advancement / group scenarios).
 
 ## Channel E — Tactical profile & cohesion (战术画像 / 默契)
 **Goal:** style matchup and the cohesion discount that Channel C demands.
